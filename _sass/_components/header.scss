@@ -20,6 +20,10 @@
     right: 0px;
 
     z-index: 2;
+
+    md-icon {
+      color: var(--md-ref-palette-secondary100);
+    }
   }
 
   #default-header-hero-container {

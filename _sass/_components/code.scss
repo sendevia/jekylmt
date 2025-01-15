@@ -45,46 +45,16 @@ figure.highlight {
       transition: var(--md-sys-motion-duration-short4) var(--md-sys-motion-easing-standard);
     }
 
-    p {
-      display: flex;
-      align-items: center;
-
-      height: 40px;
-
-      padding: 4px 12px;
-
-      word-break: keep-all;
-
-      background-color: #c9d1d9;
-
-      border-radius: var(--md-sys-shape-corner-small);
-
-      clip-path: circle(0% at 100% 50%);
-      opacity: 0px;
-      overflow: hidden;
-      transition: var(--md-sys-motion-duration-short4) var(--md-sys-motion-easing-emphasized);
-    }
-
     &:hover {
       opacity: 1;
 
       span {
         background-color: #c9d1d9;
       }
-
-      p {
-        clip-path: circle(150% at 100% 50%);
-
-        opacity: 1;
-      }
     }
 
     @media (prefers-color-scheme: dark) {
       color: #f6f8fa;
-
-      p {
-        background-color: #24292f;
-      }
 
       &:hover span {
         background-color: #24292f;

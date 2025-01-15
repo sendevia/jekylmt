@@ -307,6 +307,10 @@
       flex-direction: row;
       justify-content: space-around;
 
+      div[spec="menu"] {
+        display: none !important;
+      }
+
       .navigation-segment-active {
         margin: 0px 4px 0px 4px;
 
